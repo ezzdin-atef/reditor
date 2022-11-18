@@ -1,7 +1,7 @@
 {
-  "name": "react-editor",
+  "name": "reditor",
   "version": "1.0.0",
-  "description": "React WYSIWYG Editor is rich text editor component in react and based on Lexical.",
+  "description": "Eeditor is React WYSIWYG Rich Text Editor Component in react and based on Lexical.",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
   "types": "./dist/esm/index.d.ts",
@@ -56,5 +56,9 @@
     "dist",
     "LICENSE",
     "README.md"
-  ]
+  ],
+  "dependencies": {
+    "@lexical/react": "^0.6.0",
+    "lexical": "^0.6.0"
+  }
 }
